@@ -12,8 +12,8 @@ using System.Xml;
 
 class Program
 {
-    private static readonly string TelegramBotToken = "YOUR_TELEGRAM_BOT_TOKEN";
-    private static readonly string TelegramChannelId = "@your_channel";
+    private static readonly string TelegramBotToken = "7927339412:AAHnB87IL8oPVThoDNJiPxlqpYRUywzVFYg";
+    private static readonly string TelegramChannelId = "https://t.me/Persian_Formula1";
     private static readonly HttpClient client = new HttpClient();
     private static readonly TelegramBotClient bot = new TelegramBotClient(TelegramBotToken);
     private static readonly TranslationClient translator = TranslationClient.Create();
